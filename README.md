@@ -9,5 +9,5 @@ First, I created an app on LinkedIn. After tried many times to authenticate with
 I tried to push this app to Heroku, but still have some issues. So for now, this app can only run locally.
 
 ## About this app
-
-This project is an application for the task for internship in Suitable. co
+This app is developed using WebStorm supported by Google.
+This project is an application for the task for internship in Suitable. co.
