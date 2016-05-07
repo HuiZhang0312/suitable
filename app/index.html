@@ -4,6 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
   <link href="css/main.css" rel="stylesheet" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js";></script>
   <script type="text/javascript" src="//platform.linkedin.com/in.js">
     api_key: 779e6nz7palium
     authorize: false
@@ -20,6 +22,9 @@
     // Handle the successful return from the API call
     function onSuccess(data) {
       console.log(data);
+      var profile = JSON.stringify(data);
+      document.write(profile);
+
     }
 
     // Handle an error response from the API call
@@ -40,6 +45,9 @@
 <!--<input type="image" src="img/Sign-In.png">-->
 <script type="in/Login"></script>
 <script type="in/Share"></script>
+<br>
+<input type="button" value="bookApp" onclick="window.location.href='book.html'">
+<input type="button" value="marketApp" onclick="window.location.href='market.html'">
 <div class="main" ng-controller="MainController">
   <div class="container">
     <div class="row">
